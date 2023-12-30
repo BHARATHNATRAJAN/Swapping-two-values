@@ -18,8 +18,16 @@ Print both the values it would be interchanged
 ### Step 6: 
 End the program
 ## PROGRAM:
-
-
+```
+a=int(input())
+b=int(input())
+temp=b
+b=a
+a=temp
+print("Swapped values are:",a,b)
+```
+## output:
+![image](https://github.com/ArchanaSharikalHarinarayanan/Swapping-two-values/assets/147473529/6ca065d2-4923-4c7e-8620-f84689df288b)
 
 ## RESULT:
 Thus the swapping of two values are successfully executed
